@@ -1,11 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AKUMA CLAN</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AKUMAclanCS2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: url('AKUMA_logo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: rgba(153, 0, 0, 0.9);
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 0 20px #ff0000;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #fff;
+    }
+    nav { margin-top: 15px; }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #ff4d4d; }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ff1a1a;
+    }
+    section p, section ul {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #ddd;
+    }
+    ul { list-style: none; padding: 0; }
+    ul li { margin: 10px 0; }
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #990000;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 0 10px #ff0000;
+      transition: 0.3s;
+    }
+    .social-links a:hover {
+      background: #ff1a1a;
+      box-shadow: 0 0 20px #ff4d4d;
+    }
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      margin-top: 40px;
+    }
+    .case-box {
+      display: inline-block;
+      margin: 20px;
+      padding: 20px;
+      background: #2a0000;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #ff0000;
+      transition: 0.3s;
+    }
+    .case-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #ff4d4d;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2rem; }
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to the AKUMA Clan Website!</h1>
+<header>
+  <img src="AKUMA_logo.jpg" alt="AKUMA Logo">
+  <h1>AKUMAclanCS2</h1>
+  <nav>
+    <a href="#home">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#games">Игры</a>
+    <a href="#rules">Правила</a>
+    <a href="#cases">Кейсы</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+<section id="home">
+  <h2>Добро пожаловать</h2>
+  <p>Клан AKUMA — сообщество элитных бойцов CS2 и других соревновательных игр. Мы — тьма, пришедшая за победой!</p>
+</section>
+<section id="about">
+  <h2>О нас</h2>
+  <p>AKUMAclanCS2 — это братство игроков, объединённых духом соперничества и уважения. У нас командная игра, тренировки и участие в турнирах.</p>
+</section>
+<section id="games">
+  <h2>Игры</h2>
+  <ul>
+    <li>Counter-Strike 2</li>
+    <li>Rust</li>
+    <li>Escape from Tarkov</li>
+    <li>Valorant</li>
+  </ul>
+</section>
+<section id="rules">
+  <h2>Правила</h2>
+  <ul>
+    <li>Уважение ко всем участникам</li>
+    <li>Запрещены читы, оскорбления и токсичность</li>
+    <li>Обязательная активность</li>
+    <li>Поддержка командного духа</li>
+  </ul>
+</section>
+<section id="cases">
+  <h2>Кейсы</h2>
+  <div class="case-box">
+    <p>Red Flame Case</p>
+    <button>Открыть</button>
+  </div>
+  <div class="case-box">
+    <p>Shadow Strike Case</p>
+    <button>Открыть</button>
+  </div>
+</section>
+<section id="contacts">
+  <h2>Наши соцсети</h2>
+  <div class="social-links">
+    <a href="https://t.me/+zNPjZefMx7gyZTNi" target="_blank">Telegram</a>
+    <a href="https://discord.gg/MATTu9PB" target="_blank">Discord</a>
+    <a href="https://steamcommunity.com/groups/ClanAkuma" target="_blank">Steam</a>
+  </div>
+</section>
+<footer>
+  <p>&copy; 2025 AKUMAclanCS2. Все права защищены.</p>
+</footer>
 </body>
 </html>
